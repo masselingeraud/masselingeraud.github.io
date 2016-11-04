@@ -1,0 +1,188 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>CV Géraud Masselin</title>
+
+    <!-- SMOOTH SCROLL -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+    <!-- End of SMOOTH SCROLL -->
+</head>
+
+<body>
+    <div class="container">
+        <div id="top">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-lg-10">
+                    <nav class="navbar navbar-inverse ">
+                        <li>
+                            <a href="#Cursus">
+                                <p>Cursus</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#Competences">
+                                <p>Competences</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#Experiences">
+                                <p>Experiences</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#Interet">
+                                <p>Interets</p>
+                            </a>
+                        </li>
+                </div>
+            </div>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div id="Presentation" class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1  col-md-5  col-lg-5">
+            <h2><strong>La Presentation</strong></h2>
+
+
+            <div id="contentA1">
+                <h3>
+                 Geraud Masselin<br><br>
+                 21 ans<br><br>
+                 90 rue lakanal<br><br>
+                 92500 Rueil-Malmaison<br><br>
+                 <a href="tel:0671281303">Téléphone : 06 71 28 13 03</a><br><br>
+                 <a href="mailto:masselingeraud@gmail.com">Masselingeraud@gmail.com</a><br><br>
+             </h3>
+            </div>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-0 col-lg-5 col-lg-offset-0">
+            <h3>
+                <img src="mabel.jpg" height="350px" width="250px">
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+        <div id="Cursus" class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-lg-10">
+            <h2>
+        <strong>
+            Mon Cursus :
+        </strong>
+    </h2>
+            <div id="contentB1">
+                <h3>
+                    2012 : Bac STI2D SIN Lycée Richeulieux a Rueil-Malmaison.<i class="fa fa-graduation-cap" aria-hidden="true"></i><br><br>
+                    2012-2013 : Bts Crsa (conception et realisation de systeme automatiser) Lycée Jean Jaurès a Chatenay-Malabry.<br><br>
+                    2016 : Obtention d'un bts SIO a l'ECE Tech a Paris 15.<i class="fa fa-graduation-cap" aria-hidden="true"></i><br><br>
+                    Année en cours : Bachelor DWM a l'ECE Tech a Paris 15.<br><br>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="Competences" class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-lg-10">
+            <h2>
+        <strong>
+            Mes Competences :
+        </strong>
+    </h2>
+            <div class="barcomp">
+                <h3> 
+        Competence en PHP/SQL : <i class="fa fa-database" aria-hidden="true"></i>
+                        <div class="progress progress-striped">
+                         <div class="progress-bar progress-bar-danger" style="width: 85%"></div>
+                         </div>
+          
+        Competence en CSS : <i class="fa fa-css3" aria-hidden="true"></i>
+                        <div class="progress progress-striped">
+                         <div class="progress-bar progress-bar-danger" style="width: 30%"></div>
+                         </div>
+          
+        Competence en BootStrap : <i class="fa fa-html5" aria-hidden="true"></i>
+                        <div class="progress progress-striped">
+                         <div class="progress-bar progress-bar-danger" style="width: 20%"></div>
+                         </div>
+          
+          
+        Competence en JAVA : <i class="fa fa-coffee" aria-hidden="true"></i>
+                        <div class="progress progress-striped">
+                         <div class="progress-bar progress-bar-danger" style="width: 60%"></div>
+                         </div>
+       
+        Competence en GIT : <i class="fa fa-github-alt" aria-hidden="true"></i></span>
+                        <div class="progress progress-striped">
+                         <div class="progress-bar progress-bar-danger" style="width: 15%"></div>
+                         </div>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="Experiences" class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-lg-10">
+            <h2>
+            <strong>
+                Mes Experiences :
+            </strong>
+        </h2>
+            <div>
+                <h3>
+                Mai <span class="glyphicon glyphicon-arrow-right"></span> Juillet 2014 : Livreur chez Sushishop a Saint-Cloud 92210 <br><br>
+                Juin <span class="glyphicon glyphicon-arrow-right"></span> Juillet 2015 : Stage chez LeMonde dans le service maintenance informatique a Paris 75013<br><br>
+                Juillet 2015 : Manager d'un restaurant : PopSushi a Garche 92380<br><br>
+                Janvier <span class="glyphicon glyphicon-arrow-right"></span> Fevrier 2016 : Devloppeur SQL chez l'ACMS a Sursnes 92150<br><br>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="Interet" class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-lg-10">
+            <h2>
+            <strong>
+                Mes Loisires :
+            </strong>    
+        </h2>
+
+            <div id="contentB1">
+                <h3>
+                Le Golf : <i class="fa fa-flag" aria-hidden="true"></i><br><br>
+                Le Modelisme : <i class="fa fa-cogs" aria-hidden="true"></i><br><br>
+                La Musique : <i class="fa fa-music" aria-hidden="true"></i><br><br>
+                Permis B : <i class="fa fa-car" aria-hidden="true"></i><br><br>
+
+            </h3>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="#top"><span class="glyphicon glyphicon-triangle-top" style="font-size:50px; color:white;"></span>
+</footer>
+    
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+.row {
+    margin-bottom: 35px;
+    
+}
+
+.row [class^="col-"] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .2);
+    border-radius: 25px;
+}
+
+
+/* ///////////////////////////////////barre menu////////////////////////////////////////// */
+
+nav {
+    position: absolute;
+    color: white;
+    text-align: center;
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 50px;
+    border-right: 0px solid;
+    text-align: center;
+    line-height: 40px;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+nav li:hover {
+    text-decoration: none;
+    background: slategray;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    border-radius: 50px;
+}
+
+
+/*////////////////////////////////////////////////// fin /////////////////////////////////////////////////*/
+
+
